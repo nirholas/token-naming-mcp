@@ -134,7 +134,4 @@ All three are live public reads against Solana mainnet. A `.sol` name with no ow
 
 ## License
 
-Copyright © 2026 nirholas. All rights reserved.
-
-This software is proprietary — see [LICENSE](./LICENSE). No rights are granted
-without the express written permission of the copyright owner.
+All rights reserved. See [LICENSE](LICENSE).

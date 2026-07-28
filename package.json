@@ -9,7 +9,7 @@
 	"homepage": "https://three.ws",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/nirholas/naming-mcp.git"
+		"url": "git+https://github.com/nirholas/token-naming-mcp.git"
 	},
 	"bugs": {
 		"url": "https://github.com/nirholas/three.ws/issues"

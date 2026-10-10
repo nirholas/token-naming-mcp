@@ -1,0 +1,59 @@
+{
+	"name": "@three-ws/naming-mcp",
+	"version": "0.1.3",
+	"mcpName": "io.github.nirholas/naming-mcp",
+	"description": "Resolve Solana .sol names and check *.threews.sol agent-identity availability from any AI agent. sns_resolve maps a .sol name to its owner wallet, sns_reverse maps a wallet to its primary name, and threews_availability checks whether a three.ws agent handle is free to claim. No key, no signer, no payment.",
+	"type": "module",
+	"author": "nirholas <support@three.ws>",
+	"license": "Apache-2.0",
+	"homepage": "https://nirholas.github.io/token-naming-mcp/",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nirholas/token-naming-mcp.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nirholas/token-naming-mcp/issues"
+	},
+	"keywords": [
+		"mcp",
+		"model-context-protocol",
+		"three.ws",
+		"solana",
+		"sns",
+		"naming",
+		"identity",
+		"ens",
+		"ai-agent",
+		"mcp-server",
+		"ai-agents"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"src",
+		"server.json",
+		"README.md",
+		"LICENSE"
+	],
+	"bin": {
+		"naming-mcp": "src/index.js"
+	},
+	"main": "./src/index.js",
+	"exports": {
+		".": "./src/index.js"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "node --test \"test/**/*.test.mjs\"",
+		"inspect": "npx -y @modelcontextprotocol/inspector node src/index.js"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.29.0",
+		"@three-ws/tool-sdk": "file:../tool-sdk",
+		"zod": "^3.23.8"
+	}
+}

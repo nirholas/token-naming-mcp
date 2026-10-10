@@ -1,0 +1,20 @@
+# @three-ws/naming-mcp
+
+> Resolve Solana .sol names and check *.threews.sol agent-identity availability from any AI agent. sns_resolve maps a .sol name to its owner wallet, sns_reverse maps a wallet to its primary name, and threews_availability checks whether a three.ws agent handle is free to claim. No key, no signer, no payment.
+
+@three-ws/naming-mcp is a Model Context Protocol server from three.ws. Install: `npx -y @three-ws/naming-mcp`.
+
+## Docs
+
+- [README](https://github.com/nirholas/token-naming-mcp/blob/main/README.md): install, configuration, full reference
+- [Documentation site](https://nirholas.github.io/token-naming-mcp/): the README as a web page
+- [Full text for LLMs](https://nirholas.github.io/token-naming-mcp/llms-full.txt): README inlined
+- [AGENTS.md](https://github.com/nirholas/token-naming-mcp/blob/main/AGENTS.md): guidance for coding agents
+
+## Project
+
+- [Source](https://github.com/nirholas/token-naming-mcp)
+- [npm](https://www.npmjs.com/package/@three-ws/naming-mcp)
+- [three.ws](https://three.ws): the platform this is part of
+- [Issues](https://github.com/nirholas/token-naming-mcp/issues)
+- [MCP Registry](https://registry.modelcontextprotocol.io/?q=io.github.nirholas%2Fnaming-mcp)
